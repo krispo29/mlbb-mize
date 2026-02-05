@@ -1,4 +1,4 @@
-import { HeroesResponseSchema, type Hero } from "@/lib/types/hero";
+import { HeroesResponseSchema, type Hero, type Tier } from "@/lib/types/hero";
 
 const API_URL = "https://mlbb-wiki-api.vercel.app/api/heroes";
 
@@ -19,5 +19,19 @@ export async function fetchHeroes(): Promise<Hero[]> {
     throw new Error("Invalid API response structure");
   }
 
-  return parsed.data.data;
+  // Merge with Pro Meta Layer
+  const { heroes: proData } = await import("@/lib/data/meta-pro-layer.json");
+  
+  return parsed.data.data.map(hero => {
+    const meta = proData.find(m => m.hero_name === hero.hero_name);
+    return {
+      ...hero,
+      tier: (meta?.tier as Tier) || "B",
+      difficulty: meta?.difficulty || 1,
+      utility: meta?.utility || ["Standard"],
+      coreItems: meta?.coreItems || ["Boots", "Standard Item 1", "Standard Item 2"],
+      counters: meta?.counters || [],
+      synergies: meta?.synergies || [],
+    };
+  });
 }

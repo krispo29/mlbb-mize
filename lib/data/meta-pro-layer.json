@@ -1,0 +1,113 @@
+{
+  "meta_patch": "1.9.x - Feb 2026",
+  "heroes": [
+    {
+      "hero_name": "Tigreal",
+      "tier": "S+",
+      "difficulty": 1,
+      "utility": ["CC", "Aria", "Initiator"],
+      "coreItems": ["Antique Cuirass", "Athena's Shield", "Immortality"],
+      "counters": ["Diggie", "Akai", "Valir"],
+      "synergies": ["Guinevere", "Badang", "Pharsa"]
+    },
+    {
+      "hero_name": "Fredrinn",
+      "tier": "S+",
+      "difficulty": 2,
+      "utility": ["Sustain", "CC", "Tank"],
+      "coreItems": ["Guardian Helmet", "Cursed Helmet", "Antique Cuirass"],
+      "counters": ["Baxia", "Karrie", "Lunox"],
+      "synergies": ["Angela", "Floryn", "Faramis"]
+    },
+    {
+      "hero_name": "Hayabusa",
+      "tier": "S+",
+      "difficulty": 3,
+      "utility": ["Burst", "Blink", "Jungler"],
+      "coreItems": ["Sky Piercer", "Blade of Heptaseas", "Malefic Roar"],
+      "counters": ["Phoveus", "Kaja", "Franco"],
+      "synergies": ["Angela", "Diggie"]
+    },
+    {
+      "hero_name": "Ling",
+      "tier": "S+",
+      "difficulty": 3,
+      "utility": ["Burst", "Blink", "Chase"],
+      "coreItems": ["Demon Hunter Sword", "Corrosion Scythe", "Malefic Roar"],
+      "counters": ["Khufra", "Minsitthar", "Hylos"],
+      "synergies": ["Angela", "Kaja"]
+    },
+    {
+      "hero_name": "Angela",
+      "tier": "S+",
+      "difficulty": 1,
+      "utility": ["Sustain", "Shield", "Support"],
+      "coreItems": ["Flask of the Oasis", "Fleeting Time", "Necklace of Durance"],
+      "counters": ["Baxia", "Sea Halberd", "Saber"],
+      "synergies": ["Ling", "Leomord", "Fredrinn"]
+    },
+    {
+      "hero_name": "Natan",
+      "tier": "S",
+      "difficulty": 2,
+      "utility": ["Burst", "Magic Damage", "Gold Lane"],
+      "coreItems": ["Feather of Heaven", "Starlium Scythe", "Holy Crystal"],
+      "counters": ["Saber", "Natalia", "Lolita"],
+      "synergies": ["Tigreal", "Atlas"]
+    },
+    {
+      "hero_name": "Harith",
+      "tier": "S+",
+      "difficulty": 2,
+      "utility": ["Burst", "Blink", "Sustain"],
+      "coreItems": ["Starlium Scythe", "Feather of Heaven", "Holy Crystal"],
+      "counters": ["Khufra", "Minsitthar", "Phoveus"],
+      "synergies": ["Tigreal", "Minotaur"]
+    },
+    {
+      "hero_name": "Karrie",
+      "tier": "S",
+      "difficulty": 1,
+      "utility": ["True Damage", "Tank Killer", "Gold Lane"],
+      "coreItems": ["Demon Hunter Sword", "Golden Staff", "Corrosion Scythe"],
+      "counters": ["Lolita", "Natalia", "Hayabusa"],
+      "synergies": ["Minotaur", "Kaja"]
+    },
+    {
+      "hero_name": "Minotaur",
+      "tier": "S+",
+      "difficulty": 1,
+      "utility": ["CC", "Sustain", "Roamer"],
+      "coreItems": ["Antique Cuirass", "Flask of the Oasis", "Immortality"],
+      "counters": ["Diggie", "Akai", "Valir"],
+      "synergies": ["Guinevere", "Claude"]
+    },
+    {
+      "hero_name": "Roger",
+      "tier": "S+",
+      "difficulty": 2,
+      "utility": ["Burst", "Finish", "Jungler"],
+      "coreItems": ["Windtalker", "Endless Battle", "Malefic Roar"],
+      "counters": ["Minsitthar", "Franco", "Kaja"],
+      "synergies": ["Angela", "Mathilda"]
+    },
+    {
+      "hero_name": "Diggie",
+      "tier": "S+",
+      "difficulty": 1,
+      "utility": ["Anti-CC", "Support", "Vision"],
+      "coreItems": ["Fleeting Time", "Athena's Shield", "Antique Cuirass"],
+      "counters": ["Saber", "Hayabusa", "Helcurt"],
+      "synergies": ["Tigreal", "Atlas", "Bruno"]
+    },
+    {
+      "hero_name": "Faramis",
+      "tier": "S",
+      "difficulty": 2,
+      "utility": ["Revive", "CC", "Utility"],
+      "coreItems": ["Fleeting Time", "Lightning Truncheon", "Holy Crystal"],
+      "counters": ["Valir", "Akai", "Beatrix"],
+      "synergies": ["Fredrinn", "Terizla"]
+    }
+  ]
+}
